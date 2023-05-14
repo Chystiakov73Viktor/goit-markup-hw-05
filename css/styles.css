@@ -400,17 +400,16 @@ width: calc((100% - 48px) / 3);
     height: 100%;
     border: 1px solid var(--color-border-icon);
     border-radius: 4px;
-   color: var(--color-border-icon);
-   transition: color var(--transition-dur-func),
-   border-color var(--transition-dur-func);
+    color: var(--color-border-icon);
+    transition: border-color var(--transition-dur-func),
+   color var(--transition-dur-func);
 }
 
 
 .customers-link:hover,
 .customers-link:focus {
-
-   color: var(--background-button);
     border: 1px solid var(--background-button);
+    color: var(--background-button);
 }
 .customers-logo {
     fill: currentColor;
@@ -606,7 +605,7 @@ width: calc((100% - 48px) / 3);
     padding: 0;
     background-color: var(--background-modal-button);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    transform: background-color var(--transition-dur-func),
+    transition: background-color var(--transition-dur-func),
      border var(--transition-dur-func);
 }
 .modal-button:hover,

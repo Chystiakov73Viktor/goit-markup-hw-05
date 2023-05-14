@@ -519,7 +519,7 @@ width: calc((100% - 48px) / 3);
 }
 .portfolio-item:hover .overlay,
 .portfolio-item:focus .overlay {
-    transform: translate(0,0);
+    transform: translateY(0%);
 }
 .portfolio-link {
     display: block;
@@ -542,7 +542,7 @@ width: calc((100% - 48px) / 3);
 .overlay {
     position: absolute;
     overflow: auto;
-    transform: translate(0,100%);
+    transform: translateY(100%);
     transition: transform var(--transition-dur-func);
     top: 0;
     left: 0;
